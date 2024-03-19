@@ -21,4 +21,6 @@ Foglendes wird benötigt:
 - Es muss im HomeAssistant eine MQTT Instanz eingerichtet und funktionabel sein - entweder als Mosquitto Server oder als Client zu einem externen System.
 - Es muss die Konfigurationsdatei (configuration.yaml) mit dem Inhalt von 'config\MQTT_vc250.json' ergänzt werden 
 - Für die Visualisierung im Homeassistant müssen die Dateien aus diesem Repository unter `img/` nach `local/img/` hochgeladen werden, dazu verwendet man am besten den Samba Client.
-- Nun erzeugt man einen Dashboard und importiert den Inhalt von `view/Kaeltekreis.json` per "copy & paste".
+- Nun erzeugt man ein Dashboard und importiert den Inhalt von `view/Kaeltekreis.json` per "copy & paste" im Raw-Konfiguarationseditor.
+  ![image](https://github.com/jwende/ha.vis.vitocal250/assets/3383864/28912996-fd2b-416c-9bcb-3503508c0a00)
+

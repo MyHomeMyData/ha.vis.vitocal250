@@ -1,0 +1,92 @@
+mqtt:
+  sensor:
+  - state_topic: open3e/vitocal/268_FlowTemperatureSensor/Actual
+    unit_of_measurement: "°C"
+    name: "Vorlauftemperatur"
+    unique_id: "Vorlauftemperatur"
+  - state_topic: open3e/vitocal/269_ReturnTemperatureSensor/Actual
+    unit_of_measurement: "°C"
+    name: "Rücklauftemperatur"
+    unique_id: "Rücklauftemperatur"
+  - state_topic: open3e/vitocal/271_DomesticHotWaterSensor/Actual
+    unit_of_measurement: "°C"
+    name: "Warmwassertemperatur"
+    unique_id: "Warmwassertemperatur"     
+  - state_topic: open3e/vitocal/1043_AllengraSensor/Actual
+    unit_of_measurement: "l/h"
+    name: "Durchflussmenge"
+    unique_id: "AllengraSensor"
+  - state_topic: open3e/vitocal/2496_CurrentThermalCapacitySystem
+    unit_of_measurement: "W th"
+    name: "Wärmeleistung"
+    unique_id: "Wärmeleistung"
+  - state_topic: open3e/vitocal/3016_HeatingBufferTemperatureSensor/Actual
+    unit_of_measurement: "°C"
+    name: "Heizungspuffer"
+    unique_id: "Heizungspuffer"
+  - state_topic: open3e/vitocal/355_SecondaryHeatExchangerLiquidTemperatureSensor/Actual
+    unit_of_measurement: "°C"
+    name: "355_SecondaryHeatExchangerLiquidTemperatureSensor"
+    unique_id: "SecondaryHeatExchangerLiquidTemperatureSensor"
+  - state_topic: open3e/vitocal/389_ElectronicExpansionValveOneCurrentPositionPercent
+    unit_of_measurement: "%"
+    name: "389_ElectronicExpansionValveOneCurrentPositionPercent"
+    unique_id: "ElectronicExpansionValveOneCurrentPositionPercent"
+  - state_topic: open3e/vitocal/2333_EconomizerLiquidTemperatureSensor/Actual
+    unit_of_measurement: "°C"
+    name: "2333_EconomizerLiquidTemperatureSensor"
+    unique_id: "EconomizerLiquidTemperatureSensor"
+  - state_topic: open3e/vitocal/391_ElectronicExpansionValveTwoCurrentPositionPercent
+    unit_of_measurement: "%"
+    name: "391_ElectronicExpansionValveTwoCurrentPositionPercent"
+    unique_id: "ElectronicExpansionValveTwoCurrentPositionPercent"
+  - state_topic: open3e/vitocal/320_PrimaryHeatExchangerLiquidTemperatureSensor/Actual
+    unit_of_measurement: "°C"
+    name: "320_PrimaryHeatExchangerLiquidTemperatureSensor"
+    unique_id: "PrimaryHeatExchangerLiquidTemperatureSensor"
+  - state_topic: open3e/vitocal/1775_PrimaryCircuitFanOne
+    unit_of_measurement: "%"
+    name: "1775_PrimaryCircuitFanOne"
+    unique_id: "PrimaryCircuitFanOne"
+  - state_topic: open3e/vitocal/274_OutsideTemperatureSensor/Actual
+    unit_of_measurement: "°C"
+    name: "Aussentemperatur"
+    unique_id: "Aussentemperatur"  
+  - state_topic: open3e/vitocal/1776_PrimaryCircuitFanTwo
+    unit_of_measurement: "%"
+    name: "1776_PrimaryCircuitFanTwo"
+    unique_id: "PrimaryCircuitFanTwo"
+  - state_topic: open3e/vitocal/2334_EvaporatorVaporTemperatureSensor/Actual
+    unit_of_measurement: "°C"
+    name: "2334_EvaporatorVaporTemperatureSensor"
+    unique_id: "EvaporatorVaporTemperatureSensor"
+
+  - state_topic: open3e/vitocal/322_CompressorInletPressureSensor/Actual
+    unit_of_measurement: "bar"
+    name: "322_CompressorInletPressureSensor"
+    unique_id: "CompressorInletPressureSensor"
+  - state_topic: open3e/vitocal/321_CompressorInletTemperatureSensor/Actual
+    unit_of_measurement: "°C"
+    name: "321_CompressorInletTemperatureSensor"
+    unique_id: "CompressorInletTemperatureSensor"
+  - state_topic: open3e/vitocal/2346_CompressorSpeedPercent
+    unit_of_measurement: "%"
+    name: "2346_CompressorSpeedPercent"
+    unique_id: "CompressorSpeedPercent"  
+  - state_topic: open3e/vitocal/2488_CurrentElectricalPowerConsumptionSystem
+    unit_of_measurement: "W el"
+    name: "2488_CurrentElectricalPowerConsumptionSystem"
+    unique_id: "CurrentElectricalPowerConsumptionSystem"
+  - state_topic: open3e/vitocal/1772_CompressorOilTemperatureSensor/Actual
+    unit_of_measurement: "°C"
+    name: "1772_CompressorOilTemperatureSensor"
+    unique_id: "1772_CompressorOilTemperatureSensor"     
+    
+  - state_topic: open3e/vitocal/324_CompressorOutletTemperatureSensor/Actual
+    unit_of_measurement: "°C"
+    name: "324_CompressorOutletTemperatureSensor"
+    unique_id: "CompressorOutletTemperatureSensor"
+  - state_topic: open3e/vitocal/325_CompressorOutletPressureSensor/Actual
+    unit_of_measurement: "%"
+    name: "325_CompressorOutletPressureSensor"
+    unique_id: "CompressorOutletPressureSensor" 

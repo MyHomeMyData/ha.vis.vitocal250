@@ -1,0 +1,179 @@
+views:
+  - title: Übersicht
+    panel: true
+    cards:
+      - type: picture-elements
+        elements:
+          - type: image
+            image: local/img/Heizwasserspeicheraus.png
+            style:
+              top: 40%
+              left: 92%
+              width: 3vw
+          - type: state-label
+            entity: sensor.heizungspuffer
+            style:
+              top: 50%
+              left: 92%
+              font-size: 1vw
+              color: white
+          - type: image
+            image: local/img/Warmwasserspeicheraus.png
+            style:
+              top: 40%
+              left: 97%
+              width: 3vw
+          - type: state-label
+            entity: sensor.warmwassertemperatur
+            style:
+              top: 50%
+              left: 97%
+              font-size: 1vw
+              color: white
+          - type: image
+            image: local/img/Heizstab.png
+            style:
+              top: 40%
+              left: 73%
+              width: 3vw
+          - type: state-label
+            entity: sensor.vorlauftemperatur
+            style:
+              top: 20%
+              left: 87.5%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.rucklauftemperatur
+            style:
+              top: 70%
+              left: 87.5%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.durchflussmenge
+            style:
+              top: 20%
+              left: 95%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.warmeleistung
+            style:
+              top: 40%
+              left: 85%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.355_secondaryheatexchangerliquidtemperaturesensor
+            style:
+              top: 20%
+              left: 70%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.389_electronicexpansionvalveonecurrentpositionpercent
+            style:
+              top: 20%
+              left: 60%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.2333_economizerliquidtemperaturesensor
+            style:
+              top: 20%
+              left: 42%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.1776_primarycircuitfantwo
+            style:
+              top: 23%
+              left: 11%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.aussentemperatur
+            style:
+              top: 46%
+              left: 4%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.1775_primarycircuitfanone
+            style:
+              top: 54%
+              left: 11%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.320_primaryheatexchangerliquidtemperaturesensor_2
+            style:
+              top: 38%
+              left: 25%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.391_electronicexpansionvalvetwocurrentpositionpercent_2
+            style:
+              top: 38%
+              left: 35%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.2334_evaporatorvaportemperaturesensor
+            style:
+              top: 38%
+              left: 60%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.322_compressorinletpressuresensor
+            style:
+              top: 73%
+              left: 60%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.321_compressorinlettemperaturesensor
+            style:
+              top: 73%
+              left: 51%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.2346_compressorspeedpercent
+            style:
+              top: 73%
+              left: 42%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.2488_currentelectricalpowerconsumptionsystem
+            style:
+              top: 58%
+              left: 45%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.1772_compressoroiltemperaturesensor
+            style:
+              top: 58%
+              left: 35%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.324_compressoroutlettemperaturesensor
+            style:
+              top: 96%
+              left: 42%
+              font-size: 1vw
+              color: white
+          - type: state-label
+            entity: sensor.325_compressoroutletpressuresensor
+            style:
+              top: 96%
+              left: 60%
+              font-size: 1vw
+              color: white
+        image: /local/img/Kaeltekreislaufein.jpg

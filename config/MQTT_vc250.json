@@ -4,6 +4,10 @@ mqtt:
     unit_of_measurement: "°C"
     name: "Vorlauftemperatur"
     unique_id: "Vorlauftemperatur"
+    device:
+      name: "Vitocal 250"
+      identifiers:
+         - "vitocal_250"
   - state_topic: open3e/vitocal/269_ReturnTemperatureSensor/Actual
     unit_of_measurement: "°C"
     name: "Rücklauftemperatur"
